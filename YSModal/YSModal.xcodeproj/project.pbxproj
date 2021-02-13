@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -123,6 +123,17 @@
 		8F5F99792212DCEB00AD0781 /* YSModal */ = {
 			isa = PBXGroup;
 			children = (
+				A09E6D7525D7CAC400BF8582 /* YSBaseVC.swift */,
+				A09E6D7625D7CAC400BF8582 /* YSLoadingIndicatorView.swift */,
+				A09E6D7725D7CAC400BF8582 /* YSBaseTabBarC.swift */,
+				A09E6D7825D7CAC400BF8582 /* YSLoadingIndicatorView_default.swift */,
+				A09E6D7A25D7CAC400BF8582 /* YSBaseCell_tbv_subtitle.swift */,
+				A09E6D7B25D7CAC400BF8582 /* YSBaseView_loadingIndicator.swift */,
+				A09E6D7C25D7CAC400BF8582 /* YSBaseCell_tbv_value2.swift */,
+				A09E6D7D25D7CAC400BF8582 /* YSBaseCell_colv_headerFooter.swift */,
+				A09E6D7E25D7CAC400BF8582 /* YSBaseCell_colv.swift */,
+				A09E6D7F25D7CAC400BF8582 /* YSBaseCell_tbv_default.swift */,
+				A09E6D8025D7CAC400BF8582 /* YSBaseCell_tbv_value1.swift */,
 				A09E6D7325D7CAC400BF8582 /* YSBase */,
 				8F5F997D2212DD0100AD0781 /* YSModal_animator.swift */,
 				8F5F99822212DD4100AD0781 /* YSModal_direction.swift */,
@@ -157,10 +168,6 @@
 		A09E6D7425D7CAC400BF8582 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A09E6D7525D7CAC400BF8582 /* YSBaseVC.swift */,
-				A09E6D7625D7CAC400BF8582 /* YSLoadingIndicatorView.swift */,
-				A09E6D7725D7CAC400BF8582 /* YSBaseTabBarC.swift */,
-				A09E6D7825D7CAC400BF8582 /* YSLoadingIndicatorView_default.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,13 +175,6 @@
 		A09E6D7925D7CAC400BF8582 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A09E6D7A25D7CAC400BF8582 /* YSBaseCell_tbv_subtitle.swift */,
-				A09E6D7B25D7CAC400BF8582 /* YSBaseView_loadingIndicator.swift */,
-				A09E6D7C25D7CAC400BF8582 /* YSBaseCell_tbv_value2.swift */,
-				A09E6D7D25D7CAC400BF8582 /* YSBaseCell_colv_headerFooter.swift */,
-				A09E6D7E25D7CAC400BF8582 /* YSBaseCell_colv.swift */,
-				A09E6D7F25D7CAC400BF8582 /* YSBaseCell_tbv_default.swift */,
-				A09E6D8025D7CAC400BF8582 /* YSBaseCell_tbv_value1.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
