@@ -7,7 +7,7 @@ s.license      = "MIT"
 s.author       = { "ys" => "yscode@126.com" }
 s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/LuYinhao/YSModal.git", :tag => "#{s.version}" }
-s.source_files  = "YSModal/YSModal/YSModal/*.swift"
+s.source_files  = "YSModal/YSModal/YSModal/*"
 s.frameworks = "UIKit"
 #s.dependency "YSBase"
 end
