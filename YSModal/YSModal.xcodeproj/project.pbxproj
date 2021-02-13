@@ -148,24 +148,10 @@
 		A09E705B25D80D8900BF8582 /* YSBase */ = {
 			isa = PBXGroup;
 			children = (
+				A09E705E25D80E1A00BF8582 /* views */,
 				A09E705D25D80D9900BF8582 /* Controller */,
-				A09E705C25D80D9100BF8582 /* View */,
 			);
 			name = YSBase;
-			sourceTree = "<group>";
-		};
-		A09E705C25D80D9100BF8582 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A09E6D7B25D7CAC400BF8582 /* YSBaseView_loadingIndicator.swift */,
-				A09E6D7A25D7CAC400BF8582 /* YSBaseCell_tbv_subtitle.swift */,
-				A09E6D7C25D7CAC400BF8582 /* YSBaseCell_tbv_value2.swift */,
-				A09E6D7D25D7CAC400BF8582 /* YSBaseCell_colv_headerFooter.swift */,
-				A09E6D7E25D7CAC400BF8582 /* YSBaseCell_colv.swift */,
-				A09E6D7F25D7CAC400BF8582 /* YSBaseCell_tbv_default.swift */,
-				A09E6D8025D7CAC400BF8582 /* YSBaseCell_tbv_value1.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A09E705D25D80D9900BF8582 /* Controller */ = {
@@ -177,6 +163,20 @@
 				A09E6D7825D7CAC400BF8582 /* YSLoadingIndicatorView_default.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A09E705E25D80E1A00BF8582 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A09E6D7B25D7CAC400BF8582 /* YSBaseView_loadingIndicator.swift */,
+				A09E6D7A25D7CAC400BF8582 /* YSBaseCell_tbv_subtitle.swift */,
+				A09E6D7C25D7CAC400BF8582 /* YSBaseCell_tbv_value2.swift */,
+				A09E6D7D25D7CAC400BF8582 /* YSBaseCell_colv_headerFooter.swift */,
+				A09E6D7E25D7CAC400BF8582 /* YSBaseCell_colv.swift */,
+				A09E6D7F25D7CAC400BF8582 /* YSBaseCell_tbv_default.swift */,
+				A09E6D8025D7CAC400BF8582 /* YSBaseCell_tbv_value1.swift */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 		EB1B0D9E7616959212A9F12B /* Pods */ = {
