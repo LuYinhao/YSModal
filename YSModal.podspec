@@ -9,5 +9,5 @@ s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/LuYinhao/YSModal.git", :tag => "#{s.version}" }
 s.source_files  = "YSModal/YSModal/YSModal/*"
 s.frameworks = "UIKit"
-#s.dependency "YSBase"
+s.dependency "SnapKit"
 end
